@@ -1,15 +1,17 @@
 /* diagnostic styling */
 body {
-    display: flex;
-    /* vertical alignment   */
-    align-items: center;
-    /* horizontal alignment   */
-    justify-content: center;
-    /* stretch body to height of window   */
-    height: 100vh;
-  }
-  
-  h1 {
-  /*   curve-text: 45deg; */
-    color: hotpink;
-  }
+  display: flex;
+  /* vertical alignment   */
+  align-items: center;
+  /* horizontal alignment   */
+  justify-content: center;
+  /* stretch body to height of window   */
+  height: 100%;
+}
+
+h1 {
+/*   curve-text: 45deg; */
+  color: blue;
+  filter: drop-shadow(0em .5em 6px lime);
+  font-family: 'Stardom-Regular';
+}
